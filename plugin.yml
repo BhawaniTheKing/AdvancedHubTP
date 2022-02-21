@@ -1,0 +1,16 @@
+name: AdvancedHubTP
+api: 4.0.0
+main: BhawaniSingh\Hub
+version: 1
+author: BhawaniSingh
+description: Like And Subscribe !
+
+commands:
+     hub:
+        description: Use This Command To Teleport In Server's Hub!
+        permission: hub.command
+        
+permissions:
+      hub.command:
+          description: Permission To Use AdvancedHubTP Command
+          default: true
